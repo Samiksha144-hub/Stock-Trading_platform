@@ -1,0 +1,89 @@
+/* Full page background */
+.auth_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card */
+.auth_card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Heading */
+.auth_card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input group */
+.input_group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input_group label {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Inputs */
+.input_group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus */
+.input_group input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* Button */
+.auth_card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.auth_card button:hover {
+  background: #5a67d8;
+}
+
+/* Switch text */
+.switch_text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.switch_text span {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.switch_text span:hover {
+  text-decoration: underline;
+}
